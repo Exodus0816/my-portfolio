@@ -1,0 +1,316 @@
+/* Services Page Specific Styles */
+
+/* Services Hero */
+.services-hero {
+    padding: 120px 0 80px 0;
+    background: linear-gradient(135deg, #F5F6F9 0%, #EAE7DE 100%);
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.services-hero p {
+    font-size: 20px;
+    color: #6D758D;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Services */
+.main-services {
+    padding: 96px 0;
+    background: #FFFFFF;
+}
+
+.service-detailed {
+    margin-bottom: 80px;
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.service-content.reverse {
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-content.reverse .service-image {
+    order: 2;
+}
+
+.service-content.reverse .service-text {
+    order: 1;
+}
+
+.service-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.1);
+}
+
+.service-text h2 {
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.service-text p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    color: #6D758D;
+}
+
+.service-features {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.service-features li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: #2D2D2D;
+    font-size: 16px;
+}
+
+.service-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #00708c;
+    font-weight: bold;
+}
+
+/* Interior Design Service */
+.interior-design-service {
+    padding: 96px 0;
+    background: #F5F6F9;
+}
+
+/* Visualization Service */
+.visualization-service {
+    padding: 96px 0;
+    background: #FFFFFF;
+}
+
+/* Additional Services */
+.additional-services {
+    padding: 96px 0;
+    background: #F5F6F9;
+}
+
+.additional-services h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+}
+
+.service-card {
+    background: #F9FAFC;
+    border-radius: 24px;
+    box-shadow: 0 2px 20px 0 rgba(44,62,80,0.05);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.service-card:hover {
+    box-shadow: 0 6px 32px 0 rgba(44,62,80,0.11);
+    transform: translateY(-4px);
+}
+
+.service-card img {
+    border-radius: 16px;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
+.service-card h3 {
+    margin: 12px 0 8px 0;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
+}
+
+.service-card p {
+    color: #6D758D;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* Process Section */
+.process-section {
+    padding: 96px 0;
+    background: #FFFFFF;
+}
+
+.process-section h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+}
+
+.step {
+    text-align: center;
+    padding: 32px 24px;
+    background: #F9FAFC;
+    border-radius: 24px;
+    transition: all 0.2s ease;
+}
+
+.step:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 32px 0 rgba(44,62,80,0.11);
+}
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    background: #00708c;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto 24px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.step h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #2D2D2D;
+}
+
+.step p {
+    font-size: 16px;
+    color: #6D758D;
+    margin: 0;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 96px 0;
+    background: linear-gradient(135deg, #00708c 0%, #005a73 100%);
+    text-align: center;
+}
+
+.cta-content h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.cta-content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+
+.cta-section .cta-btn {
+    background: #FFFFFF;
+    color: #00708c;
+    border: 2px solid #FFFFFF;
+}
+
+.cta-section .cta-btn:hover {
+    background: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .service-content {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        text-align: center;
+    }
+    
+    .service-content.reverse .service-image,
+    .service-content.reverse .service-text {
+        order: unset;
+    }
+    
+    .service-text h2 {
+        text-align: center;
+    }
+    
+    .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .services-hero {
+        padding: 80px 0 60px 0;
+    }
+    
+    .services-hero h1 {
+        font-size: 36px;
+    }
+    
+    .main-services,
+    .interior-design-service,
+    .visualization-service,
+    .additional-services,
+    .process-section,
+    .cta-section {
+        padding: 48px 0;
+    }
+    
+    .service-image img {
+        height: 300px;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .step {
+        padding: 24px 16px;
+    }
+    
+    .cta-content h2 {
+        font-size: 28px;
+    }
+}
